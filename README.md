@@ -58,7 +58,7 @@ Successful durations are 30, 20, and 10 seconds. The average is `(30 + 20 + 10) 
 - `jobs/summary_job.py` groups the valid attempts by `job_id` and reduces each group to its highest attempt. It does not read files.
 - `cli/cli_parser.py` parses arguments and calls `cli/commands/jobs_command.py`, which writes skip reasons to stderr and the summary to stdout.
 
-Tests live under `tests/unit/` and follow the same packages.
+`tests/unit/` checks each package on its own. `tests/scenario/` runs `python -m job_summary` against a file, which is the same path a person uses from the shell.
 
 ## Assumptions
 
