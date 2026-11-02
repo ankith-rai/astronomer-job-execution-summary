@@ -1,0 +1,47 @@
+[
+  {
+    "job_id": "job-a",
+    "status": "failed",
+    "started_at": "2024-01-01T00:00:00Z",
+    "finished_at": "2024-01-01T00:00:10Z",
+    "attempt": 1
+  },
+  {
+    "job_id": "job-a",
+    "status": "success",
+    "started_at": "2024-01-01T00:01:00Z",
+    "finished_at": "2024-01-01T00:01:30Z",
+    "attempt": 2
+  },
+  {
+    "job_id": "job-b",
+    "status": "success",
+    "started_at": "2024-01-01T00:00:00+00:00",
+    "finished_at": "2024-01-01T00:00:20+00:00",
+    "attempt": 1
+  },
+  {
+    "job_id": "job-c",
+    "status": "failed",
+    "started_at": "2024-01-01T02:00:00Z",
+    "finished_at": "2024-01-01T02:00:15Z",
+    "attempt": 1
+  },
+  {
+    "job_id": "job-d",
+    "status": "running",
+    "started_at": "2024-01-01T03:00:00Z",
+    "finished_at": null,
+    "attempt": 1
+  },
+  {
+    "job_id": "job-e",
+    "status": "success",
+    "started_at": "2024-01-01T04:00:00Z",
+    "finished_at": "2024-01-01T04:00:10Z",
+    "attempt": 3
+  },
+  {
+    "status": "success"
+  }
+]
